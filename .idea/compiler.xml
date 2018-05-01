@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="htmlcleaner-demo" />
+        <module name="htmlcleaner-plus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="htmlcleaner-demo" target="1.8" />
+      <module name="htmlcleaner-plus" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
